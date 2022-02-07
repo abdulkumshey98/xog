@@ -1,0 +1,120 @@
+ /* Custom SCSS/SASS Files */
+
+ @import 'variables';
+ @import 'mixins';
+ @import 'custom';
+ /* UIKit */
+
+ @import "variables-theme.scss";
+ @import "mixins-theme.scss";
+ @import "uikit-theme.scss";
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ @import 'material-icons/iconfont/material-icons.css';
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+ @import "tailwindcss/base";
+ @import "tailwindcss/components";
+ @import "tailwindcss/utilities";
+ a,
+ p,
+ button,
+ label,
+ input,
+ select,
+ option,
+ textarea,
+ td,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: 'Poppins', sans-serif !important;
+ }
+
+ .uk-button {
+     text-transform: none;
+ }
+
+ body {
+     background-color: #40404012;
+ }
+
+ .uk-primary-button {
+     background-color: $pcolor;
+     color: white;
+     padding: 4px 20px;
+     text-transform: none;
+     border-radius: 4px;
+ }
+
+ .uk-primary-button:hover {
+     color: white;
+ }
+
+ .primary-border-button {
+     background-color: $black;
+     text-transform: none;
+     border-radius: 3px;
+     color: white;
+     font-size: 10pt;
+     border: 2px solid $black;
+ }
+
+ .primary-border-button:hover {
+     background: none !important;
+     color: $black;
+ }
+
+ .container-subtitle {
+     font-size: 10pt;
+     color: gray;
+     text-align: center;
+ }
+
+ .container-title {
+     text-align: center;
+     font-size: 27pt;
+     font-family: $pf-font;
+     color: black;
+     font-weight: 700;
+     font-style: italic;
+     margin-bottom: 10px;
+     margin-top: 0px;
+ }
+
+ .bg-white {
+     background-color: white;
+ }
+
+ .bg-black {
+     background-color: $black;
+ }
+
+ .bg-prime {
+     background-color: $primary-color;
+ }
+
+ .history-dot>li {
+     padding-left: 0px !important;
+ }
+
+ .history-dot>li>a {
+     background-color: #43434350;
+     padding: 2px;
+     border-radius: 0px;
+     height: 4px !important;
+     width: 50px;
+     border: none;
+ }
+
+ .history-dot>li.uk-active>a,
+ .history-dot>li:hover>a {
+     background-color: $blue;
+ }
+
+ @media only screen and (max-width: 900px) {
+     .container-title {
+         font-size: 16pt;
+     }
+ }

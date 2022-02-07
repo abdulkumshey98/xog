@@ -1,0 +1,139 @@
+@import '_mixins';
+.contact-heading {
+    font-size: 28pt;
+    color: black;
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif !important;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.contact-subheading {
+    font-size: 10pt;
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact-container {
+    background-color: white;
+    border-radius: 8px;
+    width: 80%;
+    border: 1px solid #40404020;
+}
+
+.side-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.primary-label {
+    font-size: 8.5pt;
+    color: gray;
+    font-weight: 500;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.primary-input {
+    font-size: 9pt;
+    color: black;
+    background: none;
+    border-radius: 4px;
+    border: 1px solid #40404040;
+}
+
+.primary-input:focus {
+    border: 1px solid $blue;
+}
+
+.primary-drop {
+    font-size: 9pt;
+    color: black;
+    border: 1px solid #40404030;
+    border-radius: 4px;
+}
+
+.imp-icon {
+    color: red;
+}
+
+.primary-textarea {
+    font-size: 10pt;
+    color: black;
+    border: 1px solid #40404040;
+    border-radius: 4px;
+}
+
+.primary-textarea:focus {
+    font-size: 10pt;
+    border: 1px solid $blue;
+}
+
+.primary-textarea::placeholder {
+    font-size: 10pt;
+}
+
+.send-btn {
+    background-color: $blue;
+    color: white;
+    font-size: 9pt;
+    border-radius: 4px;
+    padding: 4px 0px;
+    border: 1px solid $blue;
+}
+
+.send-btn:hover {
+    border: 1px solid $blue;
+    background: none !important;
+    color: $blue;
+}
+
+.info-container {
+    width: 85%;
+}
+
+.terms-heading {
+    font-size: 9pt;
+    color: black;
+}
+
+.terms-heading>a {
+    color: $blue;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.sales-heading {
+    font-size: 10pt;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.phone {
+    margin-right: 20px;
+}
+
+.sales-heading>a {
+    text-decoration: none;
+    color: $blue;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .phone {
+        white-space: pre;
+    }
+    .mail {
+        line-break: strict;
+    }
+    .contact-container {
+        padding: 0px;
+        width: 100%;
+    }
+    .prime-container {
+        padding: 20px;
+    }
+}

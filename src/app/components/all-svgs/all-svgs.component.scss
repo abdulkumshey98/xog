@@ -1,0 +1,40 @@
+.news-recog>div>div {
+    padding: 0px;
+}
+
+.hr-grid>svg {
+    width: 70% !important;
+    margin-top: 20px;
+}
+
+.hr-grid {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.hr-grid>svg>path {
+    fill: #504d4b!important;
+}
+
+.news-recog>div>div>svg {
+    width: 100%;
+}
+
+.home-partners>ul>li>div>img {
+    width: 70%;
+}
+
+.footer-logo {
+    width: 50%;
+}
+
+.footer-logo>g>g>path {
+    fill: white !important;
+}
+
+@media only screen and (max-width: 900px) {
+    .hr-grid {
+        padding: 0px;
+    }
+}

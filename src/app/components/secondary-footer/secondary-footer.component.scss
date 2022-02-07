@@ -1,0 +1,40 @@
+@import '_mixins';
+.hw-contact-heading {
+    font-size: 36pt;
+    color: $primary-color;
+    font-weight: 600;
+    font-family: $pf-font;
+    width: 60%;
+    text-align: center;
+}
+
+.hw-contact-subheading {
+    font-size: 11pt;
+    color: gray;
+    text-align: center;
+}
+
+.hw-contact-heading>span {
+    text-decoration: dashed;
+    border-bottom: 3px dotted $blue;
+    border-radius: 4px;
+}
+
+.hw-contact-btn {
+    background-color: $blue;
+    color: white;
+    padding: 4px 30px;
+    font-size: 10pt;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+    .hw-contact-heading {
+        font-size: 18pt;
+        width: 100%;
+    }
+    .hw-contact-subheading {
+        font-size: 10pt;
+    }
+}

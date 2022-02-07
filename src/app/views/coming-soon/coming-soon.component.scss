@@ -1,0 +1,20 @@
+@import '_mixins';
+.for-img {
+    width: 30%;
+    object-fit: cover;
+}
+
+.heading {
+    font-size: 22pt;
+    color: $primary-color;
+    font-family: $pf-font;
+    font-weight: 700;
+    text-align: center;
+}
+
+.subheading {
+    font-size: 18pt;
+    color: $blue;
+    text-align: center;
+    margin-bottom: 40px;
+}

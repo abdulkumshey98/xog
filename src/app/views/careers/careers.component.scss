@@ -1,0 +1,196 @@
+@import '_mixins';
+.view-badge {
+    color: black;
+    font-weight: 500;
+    font-size: 9pt;
+}
+
+.nav-header {
+    font-size: 40pt;
+    color: $black;
+    font-family: $pf-font;
+    font-weight: 700;
+    font-style: italic;
+    width: 90%;
+    letter-spacing: 1px;
+}
+
+.nav-subheader {
+    margin-top: 40px;
+    font-size: 10pt;
+    font-weight: 500;
+    width: 80%;
+}
+
+.header-btn {
+    background-color: $blue;
+    color: white;
+    padding: 3px 30px;
+    font-size: 10pt;
+    border-radius: 8px;
+    border: 2px solid $blue;
+}
+
+.header-btn:hover {
+    color: $blue;
+    background: none !important;
+}
+
+.category-img {
+    border-radius: 8px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.category-name {
+    font-size: 10pt;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.stat-grid {
+    padding: 0px;
+}
+
+.stat-no {
+    font-size: 38pt;
+    color: white;
+    margin: 0px !important;
+    font-weight: 600;
+}
+
+.stat-name {
+    font-size: 10pt;
+    color: white;
+}
+
+.why-video {
+    width: 100%;
+    height: 100%;
+}
+
+.why-heading {
+    font-family: $pf-font;
+    font-weight: 600;
+    font-size: 26pt;
+    color: $black;
+    width: 80%;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.why-details {
+    font-size: 11pt;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    text-transform: none !important;
+}
+
+.support-mail {
+    font-size: 10pt;
+    color: $blue;
+    text-decoration: none !important;
+}
+
+.countries-heading {
+    font-size: 23pt;
+    color: white;
+    text-align: left;
+    font-weight: 800;
+    font-style: italic;
+    font-family: $pf-font;
+    width: 70%;
+}
+
+.section-grid {
+    padding: 0px;
+}
+
+.countries-subheading {
+    font-size: 9pt;
+    color: white;
+    text-align: left;
+    margin-top: 14px;
+}
+
+.section-heading {
+    font-size: 12pt;
+    color: white;
+    text-align: left;
+}
+
+.section-subheading {
+    font-size: 10pt;
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.purpose-details {
+    font-size: 11pt;
+    color: black;
+    text-align: center;
+    width: 55%;
+    margin-top: 0px;
+}
+
+.ceo-quote {
+    font-size: 22pt;
+    color: black;
+    font-family: 'Playfair Display', sans-serif !important;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.quote-author {
+    font-size: 9pt;
+    color: rgb(70, 70, 70);
+    margin-top: 6px;
+}
+
+.quote-link {
+    font-size: 10pt;
+    color: black;
+    margin-top: 4px;
+}
+
+.quote-link>a {
+    font-size: 9pt;
+    color: $blue;
+}
+
+.quote-link>a::before {
+    border-bottom-color: $blue;
+}
+
+.jobs-heading {
+    font-size: 10pt;
+    color: white;
+    text-align: center;
+}
+
+.jobs-no {
+    font-family: $pf-font;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 84pt;
+}
+
+.jobs-subheading {
+    font-size: 10pt;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .country-pill>li {
+        width: 33% !important;
+    }
+}
