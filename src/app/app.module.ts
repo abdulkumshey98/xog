@@ -13,6 +13,9 @@ import { CareersComponent } from './views/careers/careers.component';
 import { SecondaryFooterComponent } from './components/secondary-footer/secondary-footer.component';
 import { AboutUsComponent } from './views/about-us/about-us.component';
 import { DeliveryLocationComponent } from './components/delivery-location/delivery-location.component';
+import { HomeGroceryComponent } from './desktop/views/home-grocery/home-grocery.component';
+import { AppDevelopmentComponent } from './desktop/views/app-development/app-development.component';
+import { ApplicationServicesComponent } from './desktop/views/application-services/application-services.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { DeliveryLocationComponent } from './components/delivery-location/delive
     CareersComponent,
     SecondaryFooterComponent,
     AboutUsComponent,
-    DeliveryLocationComponent
+    DeliveryLocationComponent,
+    HomeGroceryComponent,
+    AppDevelopmentComponent,
+    ApplicationServicesComponent
   ],
   imports: [
     BrowserModule,

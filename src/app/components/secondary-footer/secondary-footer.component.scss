@@ -2,7 +2,7 @@
 .hw-contact-heading {
     font-size: 36pt;
     color: $primary-color;
-    font-weight: 600;
+    font-weight: 700;
     font-family: $pf-font;
     width: 60%;
     text-align: center;
@@ -31,7 +31,7 @@
 
 @media only screen and (max-width: 900px) {
     .hw-contact-heading {
-        font-size: 18pt;
+        font-size: 17pt;
         width: 100%;
     }
     .hw-contact-subheading {

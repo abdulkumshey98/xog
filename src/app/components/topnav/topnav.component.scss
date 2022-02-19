@@ -1,6 +1,6 @@
     @import 'mixins';
     .topnav {
-        background-color: $primary-color !important;
+        background-color: $primary-color;
     }
 
     .top-logo {
@@ -15,7 +15,7 @@
     .topnav>div>ul>li>a {
         color: white;
         text-transform: capitalize;
-        font-size: 9pt;
+        font-size: 9.5pt;
     }
 
     .topnav>div>ul>li>a>span {

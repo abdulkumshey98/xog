@@ -1,4 +1,8 @@
 @import '_mixins';
+:host ::ng-deep .topnav {
+    background: none !important;
+}
+
 .page-title {
     font-size: 8pt;
     color: white;
@@ -6,14 +10,14 @@
 }
 
 .header-img {
-    height: 500px;
+    height: 600px;
     width: 100% !important;
     object-fit: cover;
 }
 
 .header-overlay {
     background-color: black;
-    filter: opacity(70%);
+    filter: opacity(75%);
 }
 
 .about-title {
@@ -222,10 +226,6 @@
     cursor: pointer;
 }
 
-.more-info {
-    padding: 60px;
-}
-
 .more-heading {
     font-size: 16pt;
     color: white;
@@ -245,4 +245,56 @@
 
 .more-click::before {
     border-bottom: 1px solid white;
+}
+
+@media only screen and (max-width: 900px) {
+    .delivery-container {
+        display: none;
+    }
+    .about-title {
+        font-size: 26pt;
+        width: 90%;
+    }
+    .header-img {
+        height: 400px;
+    }
+    .about-heading {
+        font-size: 22pt;
+        width: 99%;
+    }
+    .about-details {
+        font-size: 10pt;
+        width: 100%;
+    }
+    .os-container {
+        padding-bottom: 0px !important;
+    }
+    .about-video {
+        height: 250px;
+    }
+    .stats-no {
+        font-size: 34pt;
+    }
+    .value-title {
+        font-size: 21pt;
+    }
+    .industry-name {
+        font-size: 14pt;
+    }
+    .industry-overlay {
+        filter: opacity(40%);
+    }
+    .industry-image-a {
+        height: 240px;
+    }
+    .industry-image-b {
+        height: 220px;
+    }
+    .partners-grid {
+        padding-bottom: 0px;
+    }
+    .pd-container {
+        padding-top: 0px !important;
+        padding-left: 40px !important;
+    }
 }

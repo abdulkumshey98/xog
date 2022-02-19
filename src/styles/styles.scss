@@ -18,6 +18,7 @@
  p,
  button,
  label,
+ li,
  input,
  select,
  option,
@@ -67,7 +68,7 @@
  }
 
  .container-subtitle {
-     font-size: 10pt;
+     font-size: 12pt;
      color: gray;
      text-align: center;
  }
@@ -115,6 +116,10 @@
 
  @media only screen and (max-width: 900px) {
      .container-title {
-         font-size: 16pt;
+         font-size: 18pt;
      }
+ }
+
+ ::ng-deep .topnav {
+     background-color: $black !important;
  }
