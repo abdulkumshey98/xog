@@ -16,6 +16,9 @@ import { DeliveryLocationComponent } from './components/delivery-location/delive
 import { HomeGroceryComponent } from './desktop/views/home-grocery/home-grocery.component';
 import { AppDevelopmentComponent } from './desktop/views/app-development/app-development.component';
 import { ApplicationServicesComponent } from './desktop/views/application-services/application-services.component';
+import { BusinessStrategyComponent } from './desktop/views/business-strategy/business-strategy.component';
+import { CaseStudiesComponent } from './desktop/views/case-studies/case-studies.component';
+import { WebDesignComponent } from './desktop/views/web-design/web-design.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { ApplicationServicesComponent } from './desktop/views/application-servic
     DeliveryLocationComponent,
     HomeGroceryComponent,
     AppDevelopmentComponent,
-    ApplicationServicesComponent
+    ApplicationServicesComponent,
+    BusinessStrategyComponent,
+    CaseStudiesComponent,
+    WebDesignComponent
   ],
   imports: [
     BrowserModule,

@@ -114,9 +114,111 @@
      background-color: $blue;
  }
 
+ .case-heading {
+     font-size: 22pt;
+     color: black;
+     text-align: center;
+     font-family: $pf-font;
+     font-weight: 700;
+ }
+
+ .case-subheading {
+     font-size: 11pt;
+     text-align: center;
+     margin-top: 10px;
+ }
+
+ .case-grid {
+     background-color: #04040402;
+     cursor: pointer;
+     border: 1px solid #04040420;
+ }
+
+ .case-grid>.uk-card-body {
+     padding: 20px;
+ }
+
+ .case-title {
+     font-size: 16pt;
+     color: black;
+     font-weight: 500;
+     text-align: left;
+ }
+
+ .case-details {
+     font-size: 11pt;
+     width: 90%;
+     margin-top: 10px;
+     color: black;
+     text-align: left;
+ }
+
+ .case-details::first-letter {
+     font-size: 13pt;
+     text-transform: uppercase;
+     color: black;
+ }
+
+ .case-link {
+     margin-top: 10px;
+     font-weight: 500;
+     text-align: left;
+ }
+
+ .case-link:hover {
+     color: $blue;
+ }
+
+ .case-link:hover::before {
+     border-bottom: 1px solid $blue;
+ }
+
+ .more-btn {
+     background-color: $blue;
+     color: white !important;
+     font-size: 10pt;
+     padding: 7px 40px;
+     border-radius: 4px;
+ }
+
+ .case-container {
+     padding: 40px;
+     padding-top: 0px;
+ }
+
+ .industry-grid>div>div>img {
+     height: 300px;
+     width: 100%;
+     object-fit: cover;
+     cursor: pointer;
+ }
+
+ .industry-grid>div>div>div.uk-overlay-primary {
+     background-color: #43434380;
+     filter: opacity(70%) !important;
+     cursor: pointer;
+ }
+
+ .industry-name {
+     font-size: 18pt;
+     color: white;
+     font-family: $pf-font;
+     font-weight: 600;
+     text-align: left;
+ }
+
+ .exp-heading {
+     font-size: 24pt;
+     font-family: $pf-font;
+     font-weight: 600;
+ }
+
  @media only screen and (max-width: 900px) {
      .container-title {
          font-size: 18pt;
+     }
+     .exp-heading {
+         font-size: 22pt;
      }
  }
 

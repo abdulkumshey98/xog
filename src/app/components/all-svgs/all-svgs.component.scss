@@ -101,6 +101,22 @@
     width: 100%;
 }
 
+.sbs-slider>li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sbs-slider>li>svg {
+    width: 60%;
+    margin-bottom: 0px;
+}
+
+.sbs-slider>li:nth-child(6)>svg {
+    width: 100%;
+}
+
 @media only screen and (max-width: 900px) {
     .hr-grid {
         padding: 0px;

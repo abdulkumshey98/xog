@@ -4,7 +4,9 @@
   import { TopnavComponent } from './components/topnav/topnav.component';
 import { AppDevelopmentComponent } from './desktop/views/app-development/app-development.component';
 import { ApplicationServicesComponent } from './desktop/views/application-services/application-services.component';
+import { BusinessStrategyComponent } from './desktop/views/business-strategy/business-strategy.component';
 import { HomeGroceryComponent } from './desktop/views/home-grocery/home-grocery.component';
+import { WebDesignComponent } from './desktop/views/web-design/web-design.component';
 import { AboutUsComponent } from './views/about-us/about-us.component';
 import { CareersComponent } from './views/careers/careers.component';
 import { ComingSoonComponent } from './views/coming-soon/coming-soon.component';
@@ -20,7 +22,9 @@ import { ContactUsComponent } from './views/contact-us/contact-us.component';
     {path: 'careers', component: CareersComponent, data: { title : "Welcome "}},
     {path: 'about-us', component: AboutUsComponent, data: { title : "About Us | Xevello Consulting Services"}},
     {path: 'application-services', component: ApplicationServicesComponent, data: { title : "Xevello | Application Services"}},
-    {path: 'application-development', component: AppDevelopmentComponent, data: { title : "Xevello | App Development & Management"}}
+    {path: 'application-development', component: AppDevelopmentComponent, data: { title : "Xevello | App Development & Management"}},
+    {path: 'business-strategy', component: BusinessStrategyComponent, data: { title : "Xevello | Business & Strategy"}},
+    {path: 'web-design', component: WebDesignComponent, data: { title : "Xevello | Business & Strategy"}}
   ]
 
   @NgModule({

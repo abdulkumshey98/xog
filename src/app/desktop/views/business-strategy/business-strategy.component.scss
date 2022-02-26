@@ -1,0 +1,421 @@
+  @import '_mixins';
+   :host ::ng-deep .topnav {
+      background: white!important;
+  }
+
+   :host ::ng-deep .topnav>div>ul>li>a {
+      color: $black;
+  }
+
+   :host ::ng-deep .top-logo>g>g>path,
+  .top-logo>g>path {
+      fill: $black;
+  }
+
+   :host ::ng-deep .side-icon {
+      color: black !important;
+  }
+
+  .header-container {
+      width: 100%;
+  }
+
+  .header-container>img {
+      width: 100%;
+      height: 560px;
+      object-fit: cover;
+  }
+
+  .header-title {
+      font-size: 32pt;
+      color: white;
+      text-align: left;
+      font-weight: 700;
+      width: 45%;
+      font-style: italic;
+      font-family: $pf-font;
+  }
+
+  .header-subtitle {
+      font-size: 13pt;
+      color: white;
+      width: 50%;
+      font-weight: 400;
+  }
+
+  .header-container>div.uk-overlay-primary {
+      background-color: black;
+      filter: opacity(70%);
+  }
+
+  .header-btn {
+      margin-top: 40px;
+      background-color: $blue;
+      color: white;
+      font-size: 10pt;
+      border: 1px solid $blue;
+      padding: 6px 40px;
+      font-weight: 300;
+  }
+
+  .header-btn:hover {
+      background-color: #0c53ee !important;
+      border: 1px solid #0c53ee;
+  }
+
+  .video-btn {
+      background: none;
+      padding: 6px 30px;
+      margin-top: 40px;
+      border: 1px solid white;
+      margin-left: 20px;
+      color: white;
+      font-size: 10pt;
+  }
+
+  .video-btn:hover {
+      background-color: white;
+      color: black;
+  }
+
+  .video-btn>span {
+      vertical-align: middle;
+      margin-right: 4px;
+      font-size: 14pt;
+  }
+
+  .st-container {
+      background-color: white;
+      padding-left: 20px;
+      border-bottom: 1px solid #04040420;
+  }
+
+  .section-slider {
+      padding: 16px 40px;
+  }
+
+  .section-slider>div>ul>li>a {
+      font-size: 9.5pt;
+      text-decoration: none;
+      color: $black;
+  }
+
+  .section-slider>div>ul>li:hover>a {
+      color: $blue;
+  }
+
+  .section-slider>div>ul>li>a::after {
+      font-family: "Material Icons";
+      content: "\e5cc";
+      vertical-align: middle;
+      margin-left: 20px;
+  }
+
+  .section-slider>div>ul>li {
+      margin-right: 20px;
+  }
+
+  .section-header {
+      padding: 16px 40px;
+      justify-content: center;
+      align-items: center;
+      display: none;
+  }
+
+  .section-heading {
+      font-size: 10.5pt;
+      color: $black;
+  }
+
+  .st-container.uk-active>div>div>div {
+      display: flex !important;
+      -webkit-animation: slide 0.5s forwards;
+      -webkit-animation-delay: 2s;
+      animation: slide 0.5s forwards;
+      animation-delay: 2s;
+  }
+
+  .st-container.uk-active>div>div>div.section-header {
+      border-right: 1px solid #04040420;
+      -webkit-animation: slide 0.5s forwards;
+      -webkit-animation-delay: 2s;
+      animation: slide 0.5s forwards;
+      animation-delay: 2s;
+  }
+
+  .overview-heading {
+      font-size: 26pt;
+      color: black;
+      text-align: center;
+      font-weight: 500;
+      font-family: $pf-font;
+      font-weight: 700;
+      font-style: italic;
+      margin-bottom: 10px;
+  }
+
+  .overview-subheading {
+      font-size: 12pt;
+      color: black;
+      width: 60%;
+      margin-top: 0px;
+      text-align: center;
+  }
+
+  .category-title {
+      font-size: 14pt;
+      color: black;
+      font-weight: 600;
+  }
+
+  .category-grid {
+      border-radius: 4px;
+      background-color: white;
+      border: 1px solid #04040420;
+  }
+
+  .category-details {
+      font-size: 10.5pt;
+      color: gray;
+      margin-top: 10px;
+  }
+
+  .feature-grid {
+      background-color: white;
+  }
+
+  .feature-heading {
+      font-size: 24pt;
+      color: black;
+      text-align: left;
+      font-family: $pf-font;
+      font-style: italic;
+      font-weight: 900;
+  }
+
+  .feature-details {
+      margin-top: 20px;
+      font-size: 12pt;
+      color: black;
+  }
+
+  .feature-prime>div>div>h2,
+  .feature-prime>div>div>p {
+      color: white;
+  }
+
+  .feature-prime>div>div.uk-card-body {
+      padding-left: 0px;
+  }
+
+  .case-heading {
+      font-size: 22pt;
+      color: black;
+      text-align: center;
+      font-family: $pf-font;
+      font-weight: 700;
+  }
+
+  .case-subheading {
+      font-size: 11pt;
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  .case-grid {
+      background-color: #04040402;
+      cursor: pointer;
+      border: 1px solid #04040420;
+  }
+
+  .case-grid>.uk-card-body {
+      padding: 20px;
+  }
+
+  .case-title {
+      font-size: 16pt;
+      color: black;
+      font-weight: 500;
+      text-align: left;
+  }
+
+  .case-details {
+      font-size: 11pt;
+      width: 90%;
+      margin-top: 10px;
+      color: black;
+      text-align: left;
+  }
+
+  .case-details::first-letter {
+      font-size: 13pt;
+      text-transform: uppercase;
+      color: black;
+  }
+
+  .case-link {
+      margin-top: 10px;
+      font-weight: 500;
+      text-align: left;
+  }
+
+  .case-link:hover {
+      color: $blue;
+  }
+
+  .case-link:hover::before {
+      border-bottom: 1px solid $blue;
+  }
+
+  .more-btn {
+      background-color: $blue;
+      color: white;
+      font-size: 10pt;
+      padding: 7px 40px;
+      border-radius: 4px;
+  }
+
+  .exp-heading {
+      font-size: 24pt;
+      font-family: $pf-font;
+      font-weight: 600;
+  }
+
+  .stats-grid {
+      padding: 0px;
+  }
+
+  .stats-no {
+      font-size: 48pt;
+      color: black;
+      text-align: center;
+      font-family: $pf-font;
+      font-weight: 700;
+  }
+
+  .stats-details {
+      font-size: 11pt;
+      color: black;
+      text-align: center;
+      margin-top: 10px;
+      width: 60%;
+      margin-bottom: 0px;
+  }
+
+  .why-title {
+      font-size: 26pt;
+      color: black;
+      font-weight: 600;
+      text-align: left;
+  }
+
+  .why-details {
+      font-size: 11pt;
+      text-align: left;
+      margin-top: 10px;
+  }
+
+  .why-ft {
+      color: black;
+      font-size: 10.5pt;
+  }
+
+  .why-author {
+      margin-top: 10px;
+      color: black;
+      font-size: 10pt;
+  }
+
+  .why-author>a {
+      color: $blue;
+      font-size: 9pt;
+      margin-left: 20px;
+  }
+
+  .why-author>a::before {
+      border-bottom: 1px solid $blue;
+  }
+
+  .why-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .industry-grid>div>div>img {
+      height: 300px;
+      width: 100%;
+      object-fit: cover;
+  }
+
+  .industry-grid>div>div>div.uk-overlay-primary {
+      filter: opacity(80%);
+  }
+
+  .industry-name {
+      font-size: 14pt;
+      color: white;
+      font-family: $pf-font;
+      font-weight: 600;
+      text-align: left;
+  }
+
+  @media only screen and (max-width: 900px) {
+      .header-title {
+          font-size: 24pt;
+          width: 90%;
+      }
+      .header-subtitle {
+          width: 90%;
+          font-size: 11pt;
+      }
+      .header-container>img {
+          height: 450px;
+      }
+      .overview-heading {
+          font-size: 22pt;
+          width: 80%;
+          text-align: left;
+      }
+      .overview-subheading {
+          width: 100%;
+          font-size: 11pt;
+          text-align: left;
+      }
+      .category-title {
+          text-align: left;
+      }
+      .category-details {
+          text-align: left;
+      }
+      .ft-container>div>div>div.uk-card-body {
+          padding-left: 0px;
+      }
+      .feature-heading {
+          font-size: 22pt;
+      }
+      .feature-details {
+          font-size: 11pt;
+          width: 100%;
+      }
+      .stats-no {
+          font-size: 24pt;
+      }
+      .stats-details {
+          width: 100%;
+          font-size: 10pt;
+      }
+      .section-slider>div>ul>li>a::after {
+          content: "";
+      }
+      .why-title {
+          font-size: 18pt;
+      }
+      .why-grid {
+          padding-left: 0px;
+      }
+      .why-container {
+          padding-left: 0px;
+          padding-bottom: 0px;
+      }
+  }

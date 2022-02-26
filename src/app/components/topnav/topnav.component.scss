@@ -1,6 +1,13 @@
     @import 'mixins';
     .topnav {
         background-color: $primary-color;
+        z-index: 10000;
+    }
+
+    .uk-navbar-nav>li>a,
+    .uk-navbar-item,
+    .uk-navbar-toggle {
+        min-height: 74px;
     }
 
     .top-logo {
@@ -9,7 +16,7 @@
 
     .top-logo>g>g>path,
     .top-logo>g>path {
-        fill: white !important;
+        fill: white;
     }
 
     .topnav>div>ul>li>a {
