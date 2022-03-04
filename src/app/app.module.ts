@@ -19,6 +19,12 @@ import { ApplicationServicesComponent } from './desktop/views/application-servic
 import { BusinessStrategyComponent } from './desktop/views/business-strategy/business-strategy.component';
 import { CaseStudiesComponent } from './desktop/views/case-studies/case-studies.component';
 import { WebDesignComponent } from './desktop/views/web-design/web-design.component';
+import { AppDevComponent } from './desktop/views/app-dev/app-dev.component';
+import { WebDevComponent } from './desktop/views/web-dev/web-dev.component';
+import { BrandingComponent } from './desktop/views/branding/branding.component';
+import { CloudSolutionsComponent } from './desktop/views/cloud-solutions/cloud-solutions.component';
+import { CyberSecurityComponent } from './desktop/views/cyber-security/cyber-security.component';
+import { DigitalStrategyComponent } from './desktop/views/digital-strategy/digital-strategy.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +44,13 @@ import { WebDesignComponent } from './desktop/views/web-design/web-design.compon
     ApplicationServicesComponent,
     BusinessStrategyComponent,
     CaseStudiesComponent,
-    WebDesignComponent
+    WebDesignComponent,
+    AppDevComponent,
+    WebDevComponent,
+    BrandingComponent,
+    CloudSolutionsComponent,
+    CyberSecurityComponent,
+    DigitalStrategyComponent
   ],
   imports: [
     BrowserModule,

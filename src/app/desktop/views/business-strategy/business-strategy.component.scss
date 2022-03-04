@@ -22,7 +22,7 @@
 
   .header-container>img {
       width: 100%;
-      height: 560px;
+      height: 600px;
       object-fit: cover;
   }
 
@@ -39,13 +39,13 @@
   .header-subtitle {
       font-size: 13pt;
       color: white;
-      width: 50%;
+      width: 60%;
       font-weight: 400;
   }
 
   .header-container>div.uk-overlay-primary {
       background-color: black;
-      filter: opacity(70%);
+      filter: opacity(60%);
   }
 
   .header-btn {
@@ -144,14 +144,18 @@
   }
 
   .overview-heading {
-      font-size: 26pt;
+      font-size: 32pt;
       color: black;
       text-align: center;
       font-weight: 500;
       font-family: $pf-font;
       font-weight: 700;
+      width: 60%;
       font-style: italic;
       margin-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
   }
 
   .overview-subheading {
@@ -191,12 +195,14 @@
       font-family: $pf-font;
       font-style: italic;
       font-weight: 900;
+      width: 70%;
   }
 
   .feature-details {
       margin-top: 20px;
       font-size: 12pt;
       color: black;
+      width: 90%;
   }
 
   .feature-prime>div>div>h2,
@@ -392,7 +398,8 @@
           padding-left: 0px;
       }
       .feature-heading {
-          font-size: 22pt;
+          font-size: 20pt;
+          width: 100%;
       }
       .feature-details {
           font-size: 11pt;

@@ -117,6 +117,27 @@
     width: 100%;
 }
 
+.wd-slider {
+    margin-top: 4%;
+}
+
+.wd-slider>li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wd-slider>li>svg {
+    width: 50%;
+}
+
+.wd-slider>li:nth-child(4)>svg,
+.wd-slider>li:nth-child(5)>svg,
+.wd-slider>li:nth-child(6)>svg {
+    fill: white;
+    width: 25%;
+}
+
 @media only screen and (max-width: 900px) {
     .hr-grid {
         padding: 0px;

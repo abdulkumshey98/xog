@@ -1,0 +1,9 @@
+@import '../business-strategy/business-strategy.component.scss';
+:host ::ng-deep .header-title {
+    width: 70% !important;
+    font-size: 44pt;
+}
+
+:host ::ng-deep .header-container>img {
+    height: 500px !important;
+}
