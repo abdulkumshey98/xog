@@ -25,6 +25,10 @@ import { BrandingComponent } from './desktop/views/branding/branding.component';
 import { CloudSolutionsComponent } from './desktop/views/cloud-solutions/cloud-solutions.component';
 import { CyberSecurityComponent } from './desktop/views/cyber-security/cyber-security.component';
 import { DigitalStrategyComponent } from './desktop/views/digital-strategy/digital-strategy.component';
+import { ECommerceComponent } from './desktop/views/e-commerce/e-commerce.component';
+import { LogoDesignComponent } from './desktop/views/logo-design/logo-design.component';
+import { AdvertisingComponent } from './desktop/views/advertising/advertising.component';
+import { SeoComponent } from './desktop/views/seo/seo.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +54,11 @@ import { DigitalStrategyComponent } from './desktop/views/digital-strategy/digit
     BrandingComponent,
     CloudSolutionsComponent,
     CyberSecurityComponent,
-    DigitalStrategyComponent
+    DigitalStrategyComponent,
+    ECommerceComponent,
+    LogoDesignComponent,
+    AdvertisingComponent,
+    SeoComponent
   ],
   imports: [
     BrowserModule,

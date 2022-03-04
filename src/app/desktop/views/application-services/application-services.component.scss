@@ -81,13 +81,74 @@
     font-size: 2.2rem;
     color: black;
     text-align: left;
-    width: 50%;
-    font-weight: 600;
+    width: 70%;
+    font-weight: 800;
+    font-style: italic;
+    font-family: $pf-font;
 }
 
 .service-heading:hover {
     color: $blue;
     cursor: pointer;
+}
+
+.st-container {
+    background-color: white;
+    padding-left: 20px;
+    border-bottom: 1px solid #04040420;
+}
+
+.section-slider {
+    padding: 16px 40px;
+}
+
+.section-slider>div>ul>li>a {
+    font-size: 9.5pt;
+    text-decoration: none;
+    color: $black;
+}
+
+.section-slider>div>ul>li:hover>a {
+    color: $blue;
+}
+
+.section-slider>div>ul>li>a::after {
+    font-family: "Material Icons";
+    content: "\e5cc";
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.section-slider>div>ul>li {
+    margin-right: 20px;
+}
+
+.section-header {
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.section-heading {
+    font-size: 10.5pt;
+    color: $black;
+}
+
+.st-container.uk-active>div>div>div {
+    display: flex !important;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+.st-container.uk-active>div>div>div.section-header {
+    border-right: 1px solid #04040420;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
 }
 
 .service-details {

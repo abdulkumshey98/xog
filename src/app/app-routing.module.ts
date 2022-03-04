@@ -2,6 +2,7 @@
   import { RouterModule, Routes } from '@angular/router';
   import { IndexhomeComponent } from './components/indexhome/indexhome.component';
   import { TopnavComponent } from './components/topnav/topnav.component';
+import { AdvertisingComponent } from './desktop/views/advertising/advertising.component';
 import { AppDevComponent } from './desktop/views/app-dev/app-dev.component';
 import { AppDevelopmentComponent } from './desktop/views/app-development/app-development.component';
 import { ApplicationServicesComponent } from './desktop/views/application-services/application-services.component';
@@ -10,7 +11,9 @@ import { BusinessStrategyComponent } from './desktop/views/business-strategy/bus
 import { CloudSolutionsComponent } from './desktop/views/cloud-solutions/cloud-solutions.component';
 import { CyberSecurityComponent } from './desktop/views/cyber-security/cyber-security.component';
 import { DigitalStrategyComponent } from './desktop/views/digital-strategy/digital-strategy.component';
+import { ECommerceComponent } from './desktop/views/e-commerce/e-commerce.component';
 import { HomeGroceryComponent } from './desktop/views/home-grocery/home-grocery.component';
+import { LogoDesignComponent } from './desktop/views/logo-design/logo-design.component';
 import { WebDesignComponent } from './desktop/views/web-design/web-design.component';
 import { WebDevComponent } from './desktop/views/web-dev/web-dev.component';
 import { AboutUsComponent } from './views/about-us/about-us.component';
@@ -37,6 +40,9 @@ import { ContactUsComponent } from './views/contact-us/contact-us.component';
     {path: 'cloud-solutions', component: CloudSolutionsComponent, data: { title : "Xevello | Build your mobile apps"}},
     {path: 'cyber-security', component: CyberSecurityComponent, data: { title : "Xevello | Build your mobile apps"}},
     {path: 'digital-strategy', component: DigitalStrategyComponent, data: { title : "Xevello | Build your mobile apps"}},
+    {path: 'e-commerce', component: ECommerceComponent, data: { title : "Xevello | Build your mobile apps"}},
+    {path: 'logo-design', component: LogoDesignComponent, data: { title : "Xevello | Build your mobile apps"}},
+    {path: 'marketing', component: AdvertisingComponent, data: { title : "Xevello | Build your mobile apps"}},
   ]
 
   @NgModule({
