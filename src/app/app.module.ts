@@ -29,6 +29,10 @@ import { ECommerceComponent } from './desktop/views/e-commerce/e-commerce.compon
 import { LogoDesignComponent } from './desktop/views/logo-design/logo-design.component';
 import { AdvertisingComponent } from './desktop/views/advertising/advertising.component';
 import { SeoComponent } from './desktop/views/seo/seo.component';
+import { SoftwareDevelopmentComponent } from './desktop/views/software-development/software-development.component';
+import { UserExperienceComponent } from './desktop/views/user-experience/user-experience.component';
+import { ProductPackagingComponent } from './desktop/views/product-packaging/product-packaging.component';
+import { QualityEngineeringComponent } from './desktop/views/quality-engineering/quality-engineering.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +62,11 @@ import { SeoComponent } from './desktop/views/seo/seo.component';
     ECommerceComponent,
     LogoDesignComponent,
     AdvertisingComponent,
-    SeoComponent
+    SeoComponent,
+    SoftwareDevelopmentComponent,
+    UserExperienceComponent,
+    ProductPackagingComponent,
+    QualityEngineeringComponent
   ],
   imports: [
     BrowserModule,

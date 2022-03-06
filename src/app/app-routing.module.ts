@@ -14,6 +14,11 @@ import { DigitalStrategyComponent } from './desktop/views/digital-strategy/digit
 import { ECommerceComponent } from './desktop/views/e-commerce/e-commerce.component';
 import { HomeGroceryComponent } from './desktop/views/home-grocery/home-grocery.component';
 import { LogoDesignComponent } from './desktop/views/logo-design/logo-design.component';
+import { ProductPackagingComponent } from './desktop/views/product-packaging/product-packaging.component';
+import { QualityEngineeringComponent } from './desktop/views/quality-engineering/quality-engineering.component';
+import { SeoComponent } from './desktop/views/seo/seo.component';
+import { SoftwareDevelopmentComponent } from './desktop/views/software-development/software-development.component';
+import { UserExperienceComponent } from './desktop/views/user-experience/user-experience.component';
 import { WebDesignComponent } from './desktop/views/web-design/web-design.component';
 import { WebDevComponent } from './desktop/views/web-dev/web-dev.component';
 import { AboutUsComponent } from './views/about-us/about-us.component';
@@ -43,6 +48,11 @@ import { ContactUsComponent } from './views/contact-us/contact-us.component';
     {path: 'e-commerce', component: ECommerceComponent, data: { title : "Xevello | Build your mobile apps"}},
     {path: 'logo-design', component: LogoDesignComponent, data: { title : "Xevello | Build your mobile apps"}},
     {path: 'marketing', component: AdvertisingComponent, data: { title : "Xevello | Build your mobile apps"}},
+    {path: 'seo', component: SeoComponent, data: { title : "Xevello | Build your mobile apps"}},
+    {path: 'software-development', component: SoftwareDevelopmentComponent, data: { title : "Xevello | Build your mobile apps"}},
+    {path: 'ui-ux', component: UserExperienceComponent, data: { title : "Xevello | Build your mobile apps"}},
+    {path: 'product-packaging', component: ProductPackagingComponent, data: { title : "Xevello | Build your mobile apps"}},
+    {path: 'quality-engineering', component: QualityEngineeringComponent, data: { title : "Xevello | Build your mobile apps"}},
   ]
 
   @NgModule({

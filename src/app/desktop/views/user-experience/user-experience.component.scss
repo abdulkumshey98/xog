@@ -3,6 +3,10 @@
     background: none!important;
 }
 
+:host .nav-heading {
+    width: 50% !important;
+}
+
 :host ::ng-deep .topnav>div>ul>li>a {
     color: white !important;
 }
