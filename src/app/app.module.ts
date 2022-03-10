@@ -33,6 +33,7 @@ import { SoftwareDevelopmentComponent } from './desktop/views/software-developme
 import { UserExperienceComponent } from './desktop/views/user-experience/user-experience.component';
 import { ProductPackagingComponent } from './desktop/views/product-packaging/product-packaging.component';
 import { QualityEngineeringComponent } from './desktop/views/quality-engineering/quality-engineering.component';
+import simpleParallax from 'simple-parallax-js';
 
 @NgModule({
   declarations: [

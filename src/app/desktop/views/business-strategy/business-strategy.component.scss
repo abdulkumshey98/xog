@@ -149,7 +149,7 @@
       text-align: center;
       font-weight: 500;
       font-family: $pf-font;
-      font-weight: 700;
+      font-weight: 800;
       width: 60%;
       font-style: italic;
       margin-bottom: 10px;
@@ -364,6 +364,26 @@
       font-family: $pf-font;
       font-weight: 600;
       text-align: left;
+  }
+
+  .second-ft {
+      background-color: white;
+      cursor: pointer;
+  }
+
+  .sft-title {
+      font-size: 12pt;
+      color: black;
+      font-weight: 500;
+      text-align: left;
+  }
+
+  .sft-details {
+      text-align: left;
+      font-size: 11pt;
+      width: 90%;
+      margin-top: 10px;
+      color: black;
   }
 
   @media only screen and (max-width: 900px) {

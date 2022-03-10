@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import simpleParallax from 'simple-parallax-js';
+
 
 @Component({
   selector: 'app-careers',
@@ -10,6 +12,8 @@ export class CareersComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
+  ;
 
 }

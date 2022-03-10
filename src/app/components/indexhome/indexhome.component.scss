@@ -174,7 +174,7 @@
 .ai-details {
     margin-top: 10px;
     color: black;
-    font-size: 10pt;
+    font-size: 11pt;
     width: 80%;
 }
 
@@ -393,5 +393,15 @@
     }
     .ai-title {
         font-size: 18pt;
+    }
+    .stat-img {
+        margin-top: 20px;
+        padding: 0px !important;
+    }
+    .ai-container>div>div>div {
+        padding-left: 0px !important;
+    }
+    .ai-container>div>div>div>div.uk-card-body {
+        padding-left: 0px;
     }
 }
