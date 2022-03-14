@@ -1,31 +1,61 @@
 <div class="uk-position-relative">
-    <img src="assets/new-img/as-header.jpg" class="nav-img" alt="">
+    <img src="assets/new-img/as-nav.jpg" class="nav-img" alt="">
     <div class="uk-overlay-primary nav-overlay uk-position-cover"></div>
     <div class="uk-overlay uk-position-bottom uk-padding-large uk-position-center-left uk-light ">
         <p class="nav-heading">App Development</p>
         <p class="nav-subheading">Complex mobile development services for your Business: from custom mobile applications to integrated solutions </p>
     </div>
-    <div class="uk-overlay uk-position-bottom uk-padding-large uk-position-bottom-left uk-light ">
-
-        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
-
-            <ul class="uk-slider-items uk-child-width-auto uk-child-width-1-1@m slide-nav uk-child-width-auto@m">
-                <li>
-                    <a href="#details-container">Details</a>
-                </li>
-                <li>
-                    <a href="">Services</a>
-                </li>
-            </ul>
-
-
-        </div>
-    </div>
     <div class="uk-position-top">
         <app-topnav></app-topnav>
     </div>
 </div>
-<div id="details-container" class="uk-container   uk-container-xlarge uk-padding-large bg-white">
+<div class="uk-container uk-container-xlarge uk-padding-large st-container uk-padding-remove " uk-sticky="offset: 74;">
+    <div class="uk-text-center uk-grid-collapse uk-grid-match" uk-grid>
+        <div class="uk-width-auto">
+            <div class="uk-card section-header  uk-card-body">
+                <p class="section-heading">App Development</p>
+            </div>
+        </div>
+        <div class="uk-width-expand">
+            <div class="uk-card  uk-padding-remove uk-card-body">
+                <div class="section-slider " uk-slider="autoplay: true; autoplay-interval: 40000; finite:false;">
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light " tabindex="-1 ">
+
+                        <ul class="uk-slider-items uk-child-width-auto uk-grid-collapse" uk-grid>
+
+                            <li>
+                                <a href="/app-development#overview">Overview</a>
+                            </li>
+                            <li>
+                                <a href="/app-development#ios-development">iOS Development</a>
+                            </li>
+                            <li>
+                                <a href="/app-development#cross-platform">Cross Platform</a>
+                            </li>
+                            <li>
+                                <a href="/app-development#android-development">Android Development</a>
+                            </li>
+                            <li>
+                                <a href="/app-development#why-us">Why Us</a>
+                            </li>
+                            <li>
+                                <a href="/app-development#contact-us">Contact Us</a>
+                            </li>
+                        </ul>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<div id="overview" class="uk-container   uk-container-xlarge uk-padding-large bg-white">
     <p class="detail-title">A ONE-STOP-SHOP DEVELOPMENT PARTNER
     </p>
     <p class="detail-heading uk-align-center">We handle the full lifecycle of mobile products - strategy, design and mobile app development.
@@ -38,7 +68,8 @@
 
     </p>
 </div>
-<div class="uk-container uk-container-xlarge uk-padding-large uk-padding-remove-top uk-padding-remove-bottom bg-white">
+
+<div id="ios-development" class="uk-container uk-container-xlarge uk-padding-large uk-padding-remove-top uk-padding-remove-bottom bg-white">
 
     <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-margin ft-container" uk-grid>
         <div class="uk-flex-last@s uk-card-media-right uk-cover-container ">
@@ -52,11 +83,7 @@
                 <p class="service-details">XCS is a well-recognized iOS app development company that offers reliable and affordable iOS app development services to its clients all over the world. We are backed by a team of experienced, certified, and skilled iOS app developers
                     to develop robust, scalable, and custom iPhone applications that meet our clients' expectations and help them achieve their business goals.
 
-
-
-
                 </p>
-                <a href="#" class="learn-link">Learn More.</a>
             </div>
         </div>
     </div>
@@ -106,16 +133,12 @@
                 </li>
             </ul>
 
-            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-
         </div>
-
-        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
 
     </div>
 </div>
-<div class="uk-container uk-container-xlarge uk-padding-large uk-padding-remove-top uk-padding-remove-bottom bg-white">
+
+<div id="cross-platform" class="uk-container uk-container-xlarge uk-padding-large uk-padding-remove-top uk-padding-remove-bottom bg-white">
     <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-margin ft-container" uk-grid>
         <div class="uk-card-media-left uk-cover-container ">
             <img src="assets/new-img/as-devs.jpg" alt="" uk-cover>
@@ -124,19 +147,18 @@
         <div>
             <div class="uk-card-body">
                 <p class="service-heading">Cross Platform Development</p>
-                <p class="service-details">XCS cross-platform development helps reduce costs while reaching a large audience. Also, the company's services help to facilitate service at all stages and make it possible to safely guarantee customers the best quality with all guarantees.
-                    We are well aware that cross-platform is the best way to enter the mobile and web application market. The client gets the opportunity to fully satisfy his users simultaneously on all platforms, thus gaining access to the widest possible
-                    audience. Knowing all the strengths of cross-platform mobile development.
-
+                <p class="service-details">
+                    We are well aware that cross-platform is the best way to enter the mobile and web application market. The client gets the opportunity to fully satisfy his users simultaneously on all platforms, thus gaining access to the widest possible audience. Knowing
+                    all the strengths of cross-platform mobile development. XCS cross-platform development helps reduce costs while reaching a large audience. Also, the company's services help to facilitate service at all stages and make it possible to
+                    safely guarantee customers the best quality with all guarantees.
 
                 </p>
-                <a href="#" class="learn-link">Learn More.</a>
             </div>
         </div>
     </div>
     <app-all-svgs svgId="partner-wd"></app-all-svgs>
 </div>
-<div class="uk-container uk-container-xlarge uk-padding-large uk-padding-remove-top  bg-white">
+<div id="android-development" class="uk-container uk-container-xlarge uk-padding-large uk-padding-remove-top  bg-white">
     <p class="container-heading">What’s your goal today? </p>
     <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center dev-container" uk-grid>
         <div>
@@ -145,7 +167,6 @@
                 </p>
                 <p class="dev-details">React Native significantly reduces development time by allowing us to build one shared code base from the ground up in JavaScript
                 </p>
-                <a href="#" class="uk-button uk-button-text dev-link">Read More</a>
             </div>
         </div>
         <div>
@@ -153,9 +174,7 @@
                 <p class="dev-title">Angular
                 </p>
                 <p class="dev-details">We equip the best Angular minds with top-of-the-line expertise in all the versions of AngularJS development services.
-
                 </p>
-                <a href="#" class="uk-button uk-button-text dev-link">Read More</a>
             </div>
         </div>
         <div>
@@ -164,12 +183,11 @@
                 </p>
                 <p class="dev-details">We develop apps that are exceptionally fast and efficient with Flutter, attaining native performance and simplifying activities.
                 </p>
-                <a href="#" class="uk-button uk-button-text dev-link">Read More</a>
             </div>
         </div>
     </div>
 </div>
-<div class="uk-container uk-container-xlarge uk-padding-large  ops-container bg-prime">
+<div id="android-development" class="uk-container uk-container-xlarge uk-padding-large  ops-container bg-prime">
 
     <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-margin ft-container" uk-grid>
         <div class="uk-card-media-left uk-cover-container ">
@@ -183,17 +201,13 @@
                     Have an idea for a one-of-a-kind mobile solution for Android? Our developers will provide you with a custom Android application that will amaze your end users and help your company to expand. It doesn’t matter where you come from; we’ve developed Android
                     solutions for companies all across the world and in a variety of industries, such as entertainment, fintech or healthcare, to name a few. Regardless of the size of your company, and of how complex your Android app might be, we’ll make
                     sure that your requirements are met.
-
-
-
                 </p>
-                <a href="#" class="learn-link" style="color: white !important;">Learn More.</a>
             </div>
         </div>
     </div>
 
 </div>
-<div class="uk-container uk-container-xlarge bg-white uk-padding-large  uk-padding-remove-bottom">
+<div id="why-us" class="uk-container uk-container-xlarge bg-white uk-padding-large  uk-padding-remove-bottom">
     <div class="uk-text-center uk-grid-collapse approach-container uk-grid-match" uk-grid>
         <div class="uk-width-1-3@m">
             <div class="uk-card uk-padding-remove  uk-card-body">
@@ -273,5 +287,5 @@
 
     </div>
 </div>
-<app-secondary-footer></app-secondary-footer>
+<app-secondary-footer id="contact-us"></app-secondary-footer>
 <app-footer></app-footer>

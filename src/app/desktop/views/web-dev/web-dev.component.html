@@ -1,32 +1,62 @@
 <div class="uk-position-relative">
-    <img src="assets/new-img/as-header.jpg" class="nav-img" alt="">
+    <img src="assets/new-img/wd-header.jpg" class="nav-img" alt="">
     <div class="uk-overlay-primary nav-overlay uk-position-cover"></div>
     <div class="uk-overlay uk-position-bottom uk-padding-large uk-position-center-left uk-light ">
         <p class="nav-heading">Web Development</p>
         <p class="nav-subheading">Leveraging modern approaches to web development, we bring front-end, back-end, and architecture together to meet your business needs.
         </p>
     </div>
-    <div class="uk-overlay uk-position-bottom uk-padding-large uk-position-bottom-left uk-light ">
-
-        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
-
-            <ul class="uk-slider-items uk-child-width-auto uk-child-width-1-1@m slide-nav uk-child-width-auto@m">
-                <li>
-                    <a href="#details-container">Details</a>
-                </li>
-                <li>
-                    <a href="">Services</a>
-                </li>
-            </ul>
-
-
-        </div>
-    </div>
     <div class="uk-position-top">
         <app-topnav></app-topnav>
     </div>
 </div>
-<div id="details-container" class="uk-container   uk-container-xlarge uk-padding-large bg-white">
+<div class="uk-container uk-container-xlarge uk-padding-large st-container uk-padding-remove " uk-sticky="offset: 74;">
+    <div class="uk-text-center uk-grid-collapse uk-grid-match" uk-grid>
+        <div class="uk-width-auto">
+            <div class="uk-card section-header  uk-card-body">
+                <p class="section-heading">Web Development</p>
+            </div>
+        </div>
+        <div class="uk-width-expand">
+            <div class="uk-card uk-text-center uk-padding-remove uk-card-body">
+                <div class="section-slider " uk-slider="autoplay: true; autoplay-interval: 2000; finite:false;">
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light " tabindex="-1 ">
+
+                        <ul class="uk-slider-items uk-child-width-auto uk-grid-collapse" uk-grid>
+
+                            <li>
+                                <a href="/web-development#overview">Overview</a>
+                            </li>
+                            <li>
+                                <a href="/web-development#full-stack">Full Stack</a>
+                            </li>
+                            <li>
+                                <a href="/web-development#frontend">Frontend </a>
+                            </li>
+                            <li>
+                                <a href="/web-development#backend">Backend</a>
+                            </li>
+                            <li>
+                                <a href="/web-development#why-us">Why Us</a>
+                            </li>
+                            <li>
+                                <a href="/web-development#contact-us">Contact Us</a>
+                            </li>
+                        </ul>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<div id="overview" class="uk-container   uk-container-xlarge uk-padding-large bg-white">
     <p class="detail-title">Outsource with us and accelerate your digital transformation
 
     </p>
@@ -36,15 +66,12 @@
     <p class="details-detail uk-align-center">
         Delivering flawless web applications is our forte, so if you choose to work with us, you can be certain that you’ve left your product in good hands. From back-end to front-end website development, from e-commerce stores to blockchain apps, we’ll leave
         you with a product that’s functional, effective and engaging to your end-users.
-
-
     </p>
 </div>
-<div class="uk-container uk-container-xlarge uk-padding-large uk-padding-remove-top uk-padding-remove-bottom bg-white">
-
+<div id="full-stack" class="uk-container uk-container-xlarge uk-padding-large uk-padding-remove-top uk-padding-remove-bottom bg-white">
     <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-margin ft-container" uk-grid>
         <div class="uk-flex-last@s uk-card-media-right uk-cover-container ">
-            <img src="assets/new-img/as-manage.jpg" class="os-img" alt="" uk-cover>
+            <img src="assets/new-img/wd-full.jpg" class="os-img" alt="" uk-cover>
             <canvas width="600" height="400"></canvas>
         </div>
         <div>
@@ -54,7 +81,6 @@
                 <p class="service-details">XCS has a team of experienced full-stack developers that effortlessly manage numerous frameworks in order to successfully deliver a client project. By incorporating the latest technologies, our full-stack web developers ensure to create
                     custom masterpieces that would improve your ROI. We work to accommodate our clients with end-to-end services that fuel up their websites.
                 </p>
-                <a href="#" class="learn-link">Learn More.</a>
             </div>
         </div>
     </div>
@@ -104,26 +130,22 @@
                 </li>
             </ul>
 
-            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-
         </div>
 
-        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
 
     </div>
 </div>
-<div class="uk-container uk-container-xlarge uk-padding-large uk-padding-remove-top uk-padding-remove-bottom bg-white">
-    <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-margin ft-container" uk-grid>
-        <div class="uk-card-media-left uk-cover-container ">
-            <img src="assets/new-img/as-devs.jpg" alt="" uk-cover>
+<div id="frontend" class="uk-container  uk-container-xlarge uk-padding-large  uk-padding-remove-bottom bg-white">
+    <div class="uk-card  uk-grid-collapse  uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+            <img src="assets/new-img/wd-front.jpg" alt="" uk-cover>
             <canvas width="600" height="400"></canvas>
         </div>
         <div>
-            <div class="uk-card-body">
+            <div class="uk-card-body service-grid">
                 <p class="service-heading">Frontend Development</p>
                 <p class="service-details">It wouldn’t be wrong to say that with the increased number of user interfaces in present web development applications, front-end development is as important as back-end services. In the current era, the application should be responsive
-                    and that’s why Front end implementation of functionality is paramount for the overall quality of the product. Ficode is a groundbreaking front-end web developer company which offers a wide range of services including front-end development
+                    and that’s why Front end implementation of functionality is paramount for the overall quality of the product. XCS is a groundbreaking front-end web developer company which offers a wide range of services including front-end development
                     services for creating user-friendly interfaces.
                 </p>
             </div>
@@ -133,46 +155,44 @@
 </div>
 <div class="uk-container uk-container-xlarge uk-padding-large uk-padding-remove-top  bg-white">
     <p class="container-heading">What’s your goal today? </p>
-    <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center dev-container" uk-grid>
+    <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center dev-container uk-grid-match" uk-grid>
         <div>
             <div class="uk-card dev-grid uk-text-left uk-card-body">
                 <p class="dev-title">React
                 </p>
-                <p class="dev-details">React Native significantly reduces development time by allowing us to build one shared code base from the ground up in JavaScript
+                <p class="dev-details">Build dynamic, interactive and intuitive websites using our top-of-the-line ReactJS development services
+
                 </p>
-                <a href="#" class="uk-button uk-button-text dev-link">Read More</a>
             </div>
         </div>
         <div>
             <div class="uk-card dev-grid uk-text-left uk-card-body">
                 <p class="dev-title">Angular
                 </p>
-                <p class="dev-details">We equip the best Angular minds with top-of-the-line expertise in all the versions of AngularJS development services.
+                <p class="dev-details">As we are working on AngularJS for the last many years, we have achieved a lot as an AngularJS team
 
                 </p>
-                <a href="#" class="uk-button uk-button-text dev-link">Read More</a>
             </div>
         </div>
         <div>
             <div class="uk-card dev-grid uk-text-left uk-card-body">
                 <p class="dev-title">Vue Js
                 </p>
-                <p class="dev-details">We develop apps that are exceptionally fast and efficient with Flutter, attaining native performance and simplifying activities.
+                <p class="dev-details">Our Vue.js web portals and solutions are designed to address diverse requirements of various sectors
                 </p>
-                <a href="#" class="uk-button uk-button-text dev-link">Read More</a>
             </div>
         </div>
     </div>
 </div>
-<div class="uk-container uk-container-xlarge uk-padding-large  ops-container bg-prime">
+<div id="backend" class="uk-container uk-container-xlarge uk-padding-large  ops-container bg-prime">
 
-    <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-margin ft-container" uk-grid>
-        <div class="uk-card-media-left uk-cover-container ">
-            <img src="assets/new-img/as-ops.jpg" alt="" uk-cover>
+    <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+            <img src="assets/new-img/wd-back.jpg" alt="" uk-cover>
             <canvas width="600" height="400"></canvas>
         </div>
         <div>
-            <div class="uk-card-body ">
+            <div class="uk-card-body service-grid">
                 <p class="service-heading" style="color: white;">Backend Development</p>
                 <p class="service-details" style="color: white;">
                     When users access your web solution, sophisticated design and top-notch user experience are all they see. However, the majority of them don’t always recognize that the heart of every digital product is the back end — a foundation of your web solution’s
@@ -183,11 +203,11 @@
     </div>
 
 </div>
-<div class="uk-container uk-container-xlarge bg-white uk-padding-large  uk-padding-remove-bottom">
+<div id="why-us" class="uk-container uk-container-xlarge bg-white uk-padding-large  uk-padding-remove-bottom">
     <div class="uk-text-center uk-grid-collapse approach-container uk-grid-match" uk-grid>
         <div class="uk-width-1-3@m">
             <div class="uk-card uk-padding-remove  uk-card-body">
-                <img src="assets/new-img/as-quote.jpg" class="approach-img" alt="">
+                <img src="assets/new-img/wd-why.jpg" class="approach-img" alt="">
             </div>
         </div>
         <div class="uk-width-expand@m">
@@ -202,7 +222,7 @@
 
 
                 </p>
-                <button class="uk-button aprc-btn">
+                <button routerLink="/contact-us" class="uk-button aprc-btn">
               Explore
             </button>
             </div>
@@ -266,5 +286,5 @@
 
     </div>
 </div>
-<app-secondary-footer></app-secondary-footer>
+<app-secondary-footer id="contact-us"></app-secondary-footer>
 <app-footer></app-footer>

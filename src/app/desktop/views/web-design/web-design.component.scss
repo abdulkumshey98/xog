@@ -70,3 +70,13 @@
     width: 55% !important;
     margin-bottom: 2%;
 }
+
+@media only screen and (max-width: 900px) {
+     :host .overview-heading {
+        width: 100% !important;
+    }
+     :host .overview-subheading {
+        width: 100% !important;
+        margin-bottom: 2%;
+    }
+}

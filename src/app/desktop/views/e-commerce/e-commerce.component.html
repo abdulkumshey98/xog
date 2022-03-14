@@ -1,5 +1,5 @@
 <div class="uk-position-relative">
-    <img src="assets/new-img/as-header.jpg" class="nav-img" alt="">
+    <img src="assets/new-img/ec-header.jpg" class="nav-img" alt="">
     <div class="uk-overlay-primary nav-overlay uk-position-cover"></div>
     <div class="uk-overlay uk-position-bottom uk-padding-large uk-position-center-left uk-light ">
         <p class="nav-heading">E-Commerce Solutions</p>
@@ -7,27 +7,58 @@
 
         </p>
     </div>
-    <div class="uk-overlay uk-position-bottom uk-padding-large uk-position-bottom-left uk-light ">
-
-        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
-
-            <ul class="uk-slider-items uk-child-width-auto uk-child-width-1-1@m slide-nav uk-child-width-auto@m">
-                <li>
-                    <a href="#details-container">Details</a>
-                </li>
-                <li>
-                    <a href="">Services</a>
-                </li>
-            </ul>
-
-
-        </div>
-    </div>
     <div class="uk-position-top">
         <app-topnav></app-topnav>
     </div>
+
 </div>
-<div id="details-container" class="uk-container   uk-container-xlarge uk-padding-large bg-white">
+<div class="uk-container uk-container-xlarge uk-padding-large st-container uk-padding-remove " uk-sticky="offset: 74;">
+    <div class="uk-text-center uk-grid-collapse uk-grid-match" uk-grid>
+        <div class="uk-width-auto">
+            <div class="uk-card section-header  uk-card-body">
+                <p class="section-heading">E-Commerce</p>
+            </div>
+        </div>
+        <div class="uk-width-expand">
+            <div class="uk-card uk-text-center uk-padding-remove uk-card-body">
+                <div class="section-slider " uk-slider="autoplay: true; autoplay-interval: 2000; finite:false;">
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light " tabindex="-1 ">
+
+                        <ul class="uk-slider-items uk-child-width-auto uk-grid-collapse" uk-grid>
+
+                            <li>
+                                <a href="/e-commerce#overview">Overview</a>
+                            </li>
+                            <li>
+                                <a href="/e-commerce#custom">Custom</a>
+                            </li>
+                            <li>
+                                <a href="/e-commerce#engines">Engines</a>
+                            </li>
+                            <li>
+                                <a href="/e-commerce#management">Management</a>
+                            </li>
+                            <li>
+                                <a href="/e-commerce#why-us">Why Us</a>
+                            </li>
+                            <li>
+                                <a href="/e-commerce#contact-us">Contact Us</a>
+                            </li>
+                        </ul>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<div id="overview" class="uk-container   uk-container-xlarge uk-padding-large bg-white">
     <p class="detail-title">A ONE-STOP-SHOP DEVELOPMENT PARTNER
     </p>
     <p class="detail-heading uk-align-center">Crafting technology excellence. For ideas that matter
@@ -43,11 +74,11 @@
 
     </p>
 </div>
-<div class="uk-container uk-container-xlarge uk-padding-large uk-padding-remove-top uk-padding-remove-bottom bg-white">
+<div id="custom" class="uk-container uk-container-xlarge uk-padding-large uk-padding-remove-top uk-padding-remove-bottom bg-white">
 
-    <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-margin ft-container" uk-grid>
-        <div class="uk-flex-last@s uk-card-media-right uk-cover-container ">
-            <img src="assets/new-img/as-manage.jpg" class="os-img" alt="" uk-cover>
+    <div class="uk-card ft-grid uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+            <img src="assets/new-img/ec-custom.jpg" class="os-img" alt="" uk-cover>
             <canvas width="600" height="400"></canvas>
         </div>
         <div>
@@ -55,7 +86,7 @@
                 <p class="service-heading">Custom E-Commerce
                 </p>
                 <p class="service-details">In today’s world, selling online is no longer a nice to have its an absolute necessity. Running a business is tough work, you need a great product, a strong team, and most of all professional partners that can help you grow. XCS partners
-                    with best brands selling one million a year online to provide development strategy, coding and testing.
+                    with best brands selling online to provide development marketing, strategy, coding and testing.
                 </p>
             </div>
         </div>
@@ -105,20 +136,18 @@
 
                 </li>
             </ul>
-
-            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+            =
 
         </div>
 
-        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
 
     </div>
 </div>
-<div class="uk-container uk-container-xlarge uk-padding-large uk-padding-remove-top uk-padding-remove-bottom bg-white">
-    <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-margin ft-container" uk-grid>
-        <div class="uk-card-media-left uk-cover-container ">
-            <img src="assets/new-img/as-devs.jpg" alt="" uk-cover>
+<div id="engines" class="uk-container uk-container-xlarge uk-padding-large uk-padding-remove-top uk-padding-remove-bottom bg-white">
+
+    <div class="uk-card  ft-grid uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+            <img src="assets/new-img/ec-engine.jpg" alt="" uk-cover>
             <canvas width="600" height="400"></canvas>
         </div>
         <div>
@@ -131,7 +160,7 @@
             </div>
         </div>
     </div>
-    <app-all-svgs svgId="partner-wd"></app-all-svgs>
+    <app-all-svgs svgId="ec-logo"></app-all-svgs>
 </div>
 <div class="uk-container uk-container-xlarge uk-padding-large uk-padding-remove-top  bg-white">
     <p class="container-heading">What’s your goal today? </p>
@@ -158,7 +187,7 @@
             <div class="uk-card dev-grid uk-text-left uk-card-body">
                 <p class="dev-title">Magento
                 </p>
-                <p class="dev-details">We offer customized Magento Development Services for each customer’s unique needs. To learn more, see our portfolio
+                <p class="dev-details">We offer customized Magento Development Services for each customer’s unique needs. To learn more, contact us!
 
 
                 </p>
@@ -166,44 +195,45 @@
         </div>
     </div>
 </div>
-<div class="uk-container uk-container-xlarge uk-padding-large  ops-container bg-prime">
+<div id="management" class="uk-container uk-container-xlarge uk-padding-large  ops-container bg-prime">
 
-    <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-margin ft-container" uk-grid>
-        <div class="uk-card-media-left uk-cover-container ">
-            <img src="assets/new-img/as-ops.jpg" alt="" uk-cover>
+    <div class="uk-card  ft-grid uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+            <img src="assets/new-img/ec-marketing.jpg" alt="" uk-cover>
             <canvas width="600" height="400"></canvas>
         </div>
         <div>
-            <div class="uk-card-body ">
+            <div class="uk-card-body">
                 <p class="service-heading" style="color: white;">Marketing & Sales</p>
                 <p class="service-details" style="color: white;">
                     We help streamline marketing and sales activities by automating customer segmenting and profiling, lead nurturing, loyalty management, and more so that you can predict and influence demand, upsell and cross-sell effectively, as well as maximize conversions
                     via personalization.
                 </p>
-                <a href="#" class="learn-link" style="color: white !important;">Learn More.</a>
             </div>
         </div>
     </div>
 
 </div>
-<div class="uk-container uk-container-xlarge bg-white uk-padding-large  uk-padding-remove-bottom">
+<div id="why-us" class="uk-container uk-container-xlarge bg-white uk-padding-large  uk-padding-remove-bottom">
     <div class="uk-text-center uk-grid-collapse approach-container uk-grid-match" uk-grid>
         <div class="uk-width-1-3@m">
             <div class="uk-card uk-padding-remove  uk-card-body">
-                <img src="assets/new-img/as-quote.jpg" class="approach-img" alt="">
+                <img src="assets/new-img/ec-quote.jpg" class="approach-img" alt="">
             </div>
         </div>
         <div class="uk-width-expand@m">
             <div class="uk-card uk-padding-large uk-text-left uk-card-body">
                 <p class="approach-heading">
-                    Increase profits and raise your profile with mobile apps
+                    E-Commerce solutions for your online business needs
 
                 </p>
                 <p class="approach-details">
-                    The App solutions developed by us will take your business to new heights. We understand your business customer's desires, so we create apps they love to see and use the most.
+                    Looking for the strategy, design, development, and support for your ecommerce business? Let Sunrise Integration apply 7+ years of experience to your enterprise ecommerce project.
+
+
                 </p>
-                <button class="uk-button aprc-btn">
-              Explore
+                <button routerLink="/contact-us" class="uk-button aprc-btn">
+              contact us
             </button>
             </div>
         </div>
@@ -261,10 +291,8 @@
             </li>
         </ul>
 
-        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
 
     </div>
 </div>
-<app-secondary-footer></app-secondary-footer>
+<app-secondary-footer id="contact-us"></app-secondary-footer>
 <app-footer></app-footer>

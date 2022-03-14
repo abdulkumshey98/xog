@@ -61,3 +61,10 @@
 :host ::ng-deep .nav-subheading {
     width: 50% !important;
 }
+
+.feature-details {
+    font-size: 12pt;
+    width: 75%;
+}
+
+@media only screen and (max-width: 900px) {}

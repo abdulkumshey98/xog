@@ -7,3 +7,25 @@
 :host ::ng-deep .header-container>img {
     height: 500px !important;
 }
+
+:host .nav-img {
+    height: 85vh;
+}
+
+:host .header-subtitle {
+    width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+    .header-title {
+        font-size: 22pt;
+        width: 100% !important;
+    }
+    .header-subtitle {
+        width: 100% !important;
+        font-size: 12pt;
+    }
+    .nav-img {
+        height: 70vh !important;
+    }
+}

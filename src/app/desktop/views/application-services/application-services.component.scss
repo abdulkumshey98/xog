@@ -347,12 +347,75 @@
     padding: 40px !important;
 }
 
+.st-container {
+    background-color: white;
+    padding-left: 20px;
+    border-bottom: 1px solid #04040420;
+}
+
+.section-slider {
+    padding: 16px 40px;
+}
+
+.section-slider>div>ul>li>a {
+    font-size: 9.5pt;
+    text-decoration: none;
+    color: $black;
+}
+
+.section-slider>div>ul>li:hover>a {
+    color: $blue;
+}
+
+.section-slider>div>ul>li>a::after {
+    font-family: "Material Icons";
+    content: "\e5cc";
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.section-slider>div>ul>li:last-child>a::after {
+    display: none;
+}
+
+.section-slider>div>ul>li {
+    margin-right: 20px;
+}
+
+.section-header {
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.section-heading {
+    font-size: 10.5pt;
+    color: $black;
+}
+
+.st-container.uk-active>div>div>div {
+    display: flex !important;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+.st-container.uk-active>div>div>div.section-header {
+    border-right: 1px solid #04040420;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
 @media only screen and (max-width: 900px) {
     .nav-heading {
         font-size: 28pt;
     }
     .nav-subheading {
-        font-size: 10pt;
+        font-size: 12pt;
         width: 100%;
     }
     .solution-slider {
@@ -364,10 +427,12 @@
     .detail-heading {
         font-size: 16pt;
         width: 100%;
+        margin-bottom: 0px;
     }
     .details-detail {
-        font-size: 10.5pt;
+        font-size: 11pt;
         width: 100%;
+        margin-top: 8px;
     }
     .service-heading {
         font-size: 18pt;
@@ -421,5 +486,23 @@
     }
     .aprc-btn {
         margin-top: 20px;
+    }
+    .section-slider>div>ul>li>a::after {
+        content: "";
+    }
+    .section-slider {
+        padding-right: 0px;
+    }
+    .section-header {
+        padding-right: 20px;
+    }
+    .service-grid {
+        padding: 10px 0px;
+    }
+    .ft-grid>div>div {
+        padding: 20px 0px !important;
+    }
+    .container-heading {
+        margin-bottom: 20% !important;
     }
 }

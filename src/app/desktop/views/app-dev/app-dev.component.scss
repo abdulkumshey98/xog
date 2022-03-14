@@ -1,1 +1,4 @@
-@import '../application-services/application-services.component.scss'
+@import '../application-services/application-services.component.scss';
+:host .nav-overlay {
+    filter: opacity(60%);
+}

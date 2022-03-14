@@ -1,19 +1,39 @@
   @import '_mixins';
    :host ::ng-deep .topnav {
-      background: white!important;
+      background: none!important;
   }
 
    :host ::ng-deep .topnav>div>ul>li>a {
-      color: $black;
+      color: white !important;
   }
 
-   :host ::ng-deep .top-logo>g>g>path,
-  .top-logo>g>path {
-      fill: $black;
+  .nav-overlay {
+      background-color: #000000;
+      filter: opacity(76%);
   }
 
-   :host ::ng-deep .side-icon {
-      color: black !important;
+  .nav-img {
+      height: 78vh;
+      width: 100%;
+      object-fit: cover;
+  }
+
+  .nav-heading {
+      font-size: 34pt;
+      font-family: $pf-font;
+      color: white;
+      font-weight: 800;
+      font-style: italic;
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
+
+  .nav-subheading {
+      color: white;
+      margin-top: 20px;
+      width: 30%;
+      font-size: 12pt;
+      margin-top: 10px;
   }
 
   .header-container {
@@ -111,6 +131,10 @@
       margin-left: 20px;
   }
 
+  .section-slider>div>ul>li:last-child>a::after {
+      display: none;
+  }
+
   .section-slider>div>ul>li {
       margin-right: 20px;
   }
@@ -202,7 +226,7 @@
       margin-top: 20px;
       font-size: 12pt;
       color: black;
-      width: 90%;
+      width: 75%;
   }
 
   .feature-prime>div>div>h2,
@@ -212,6 +236,7 @@
 
   .feature-prime>div>div.uk-card-body {
       padding-left: 0px;
+      padding-right: 0px;
   }
 
   .case-heading {
@@ -399,8 +424,8 @@
           height: 450px;
       }
       .overview-heading {
-          font-size: 22pt;
-          width: 80%;
+          font-size: 18pt;
+          width: 100%;
           text-align: left;
       }
       .overview-subheading {
@@ -416,6 +441,7 @@
       }
       .ft-container>div>div>div.uk-card-body {
           padding-left: 0px;
+          padding-right: 0px;
       }
       .feature-heading {
           font-size: 20pt;
@@ -423,14 +449,14 @@
       }
       .feature-details {
           font-size: 11pt;
-          width: 100%;
+          width: 100% !important;
       }
       .stats-no {
           font-size: 24pt;
       }
       .stats-details {
           width: 100%;
-          font-size: 10pt;
+          font-size: 9pt;
       }
       .section-slider>div>ul>li>a::after {
           content: "";
@@ -444,5 +470,8 @@
       .why-container {
           padding-left: 0px;
           padding-bottom: 0px;
+      }
+      .section-slider {
+          padding-right: 0px;
       }
   }
