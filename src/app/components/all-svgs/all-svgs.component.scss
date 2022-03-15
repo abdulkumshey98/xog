@@ -370,6 +370,78 @@
     width: 70%;
 }
 
+.am-slider {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.am-slider>li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.am-slider>li>svg {
+    width: 60%;
+}
+
+.am-slider>li:first-child>svg>switch>g>path {
+    fill: white;
+}
+
+.am-slider>li:first-child>svg>switch>g>path:nth-child(2) {
+    fill: $black;
+}
+
+.am-slider>li:nth-child(3)>svg {
+    width: 40%;
+}
+
+.am-slider>li:nth-child(5)>svg {
+    width: 40%;
+}
+
+.am-slider>li:nth-child(5)>svg>path:last-child {
+    fill: $black;
+}
+
+.am-slider>li:nth-child(6)>svg {
+    width: 40%;
+}
+
+.am-slider>li:nth-child(6)>svg>path:last-child {
+    fill: $black;
+}
+
+.am-slider>li>svg>path,
+.am-slider>li>svg>g>path,
+.am-slider>li>svg>g>g>path,
+.am-slider>li>svg>g,
+.am-slider>li>svg>clipPath>path,
+.am-slider>li>svg>g>g>g>path {
+    fill: $black;
+}
+
+.am-slider>li:nth-child(1)>svg {
+    width: 70%;
+}
+
+.am-slider>li:nth-child(3)>svg {
+    width: 60%;
+}
+
+.am-slider>li:nth-child(5)>svg {
+    width: 70%;
+}
+
+.am-slider>li:nth-child(6)>svg {
+    width: 60%;
+}
+
+.am-slider>li:nth-child(5)>svg>g>path:last-child {
+    fill: white !important;
+}
+
 @media only screen and (max-width: 900px) {
     .hr-grid {
         padding: 0px;

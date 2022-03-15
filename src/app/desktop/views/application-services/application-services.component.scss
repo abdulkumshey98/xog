@@ -13,7 +13,7 @@
 }
 
 .nav-img {
-    height: 78vh;
+    height: 78vh !important;
     width: 100%;
     object-fit: cover;
 }
@@ -445,7 +445,7 @@
     }
     .service-details {
         font-size: 11pt;
-        width: 100%;
+        width: 100% !important;
         margin-top: 4px;
     }
     .solution-title {
@@ -504,5 +504,8 @@
     }
     .container-heading {
         margin-bottom: 20% !important;
+    }
+    .ft-grid {
+        margin-bottom: 0px !important;
     }
 }

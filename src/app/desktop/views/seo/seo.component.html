@@ -1,5 +1,5 @@
 <div class="uk-position-relative">
-    <img src="assets/new-img/as-header.jpg" class="nav-img uk-light uk-flex" uk-parallax="bgy: -200" alt="">
+    <img src="assets/new-img/se-header.jpg" class="nav-img uk-light uk-flex" uk-parallax="bgy: -200" alt="">
     <div class="uk-overlay-primary nav-overlay uk-position-cover"></div>
     <div class="uk-overlay uk-position-center uk-padding-large uk-position-center-left uk-light ">
         <p class="nav-heading">SEO</p>
@@ -15,7 +15,7 @@
     <div class="uk-text-center uk-grid-collapse uk-grid-match" uk-grid>
         <div class="uk-width-auto">
             <div class="uk-card section-header  uk-card-body">
-                <p class="section-heading">Business Strategy</p>
+                <p class="section-heading">SEO</p>
             </div>
         </div>
         <div class="uk-width-expand">
@@ -27,13 +27,22 @@
                         <ul class="uk-slider-items uk-child-width-auto">
 
                             <li>
-                                <a href="#feature-container ">Overview</a>
+                                <a href="/seo#overview">Overview</a>
                             </li>
                             <li>
-                                <a href="#feature-container ">Facts</a>
+                                <a href="/seo#local">Local</a>
                             </li>
                             <li>
-                                <a href="#feature-container ">Experience</a>
+                                <a href="/seo#global">Global</a>
+                            </li>
+                            <li>
+                                <a href="/seo#facts">Facts</a>
+                            </li>
+                            <li>
+                                <a href="/seo#audit">Audit</a>
+                            </li>
+                            <li>
+                                <a href="/seo#contact-us">Contact Us</a>
                             </li>
                         </ul>
 
@@ -49,7 +58,7 @@
 
 </div>
 
-<div class="uk-container  uk-container-xlarge uk-padding-large bg-white">
+<div id="overview" class="uk-container  uk-container-xlarge uk-padding-large bg-white">
     <p class="overview-heading "> We take care of growth so you can focus on taking care of business.
     </p>
     <p class="overview-subheading uk-align-center">
@@ -78,10 +87,10 @@
     </div>
 </div> -->
 </div>
-<div class="uk-container ft-container uk-container-xlarge uk-padding-large bg-white uk-padding-remove-top">
+<div id="local" class="uk-container ft-container uk-container-xlarge uk-padding-large bg-white uk-padding-remove-top">
     <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
         <div class="uk-card-media-left uk-cover-container uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200">
-            <img src="assets/new-img/wd-center.jpg" alt="" uk-cover>
+            <img src="assets/new-img/se-local.jpg" alt="" uk-cover>
             <canvas width="600" height="400"></canvas>
         </div>
         <div>
@@ -96,10 +105,10 @@
         </div>
     </div>
 </div>
-<div class="uk-container uk-container-xlarge uk-padding-large bg-prime">
+<div id="global" class="uk-container uk-container-xlarge uk-padding-large bg-prime">
     <div class="uk-card feature-prime uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
         <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-            <img src="assets/new-img/wd-wire.jpg" alt="" uk-cover>
+            <img src="assets/new-img/se-global.jpg" alt="" uk-cover>
             <canvas width="600" height="400"></canvas>
         </div>
         <div>
@@ -112,9 +121,8 @@
             </div>
         </div>
     </div>
-    <app-all-svgs svgId="wd-logo"></app-all-svgs>
 </div>
-<div class="uk-container uk-container-xlarge uk-padding-large">
+<div id="facts" class="uk-container uk-container-xlarge uk-padding-large">
 
     <h1 class="uk-heading-line uk-text-center exp-heading"><span>Stats & Facts</span></h1>
     <div class="uk-child-width-1-2 uk-child-width-1-3@m uk-flex-center uk-text-center uk-margin-medium-top uk-grid-small" uk-grid>
@@ -165,7 +173,7 @@
                     </p>
 
                     <p class="why-author">BrightLocal
-                        <a href="https://www.emarketer.com/" target="_blank" class="uk-button uk-button-text">View Details</a>
+                        <a href="https://www.brightlocal.com/" target="_blank" class="uk-button uk-button-text">View Details</a>
                     </p>
                 </div>
                 <div class="uk-margin-medium-top">
@@ -174,17 +182,17 @@
                     </p>
 
                     <p class="why-author">Optinmonster
-                        <a href="" class="uk-button uk-button-text">View Details</a>
+                        <a href="https://optinmonster.com/" target="_blank" class="uk-button uk-button-text">View Details</a>
                     </p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div class="uk-container ft-container uk-container-xlarge uk-padding-large bg-white ">
+<div id="audit" class="uk-container ft-container uk-container-xlarge uk-padding-large bg-white ">
     <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
         <div class="uk-card-media-left uk-cover-container">
-            <img src="assets/new-img/wd-brand.jpg" alt="" uk-cover>
+            <img src="assets/new-img/se-audit.jpg" alt="" uk-cover>
             <canvas width="600" height="400"></canvas>
         </div>
         <div>
@@ -240,5 +248,5 @@
     </div>
 </div>
 
-<app-secondary-footer></app-secondary-footer>
+<app-secondary-footer id="contact-us"></app-secondary-footer>
 <app-footer></app-footer>
