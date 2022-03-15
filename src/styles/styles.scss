@@ -200,8 +200,9 @@
  }
 
  .industry-name {
-     font-size: 18pt;
+     font-size: 20pt !important;
      color: white;
+     font-style: italic;
      font-family: $pf-font;
      font-weight: 600;
      text-align: left;
@@ -228,4 +229,13 @@
 
  ::ng-deep .topnav {
      background-color: $black !important;
+ }
+
+ .industries>li>div>div>div {
+     width: 100%;
+ }
+
+ .industries>li>div>div>div>div.uk-overlay-primary {
+     background-color: black;
+     filter: opacity(40%) !important;
  }

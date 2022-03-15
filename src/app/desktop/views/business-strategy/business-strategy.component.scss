@@ -28,10 +28,10 @@
       margin-bottom: 0px;
   }
 
-  .nav-subheading {
+   :host .nav-subheading {
       color: white;
       margin-top: 20px;
-      width: 30%;
+      width: 70% !important;
       font-size: 12pt;
       margin-top: 10px;
   }
@@ -412,6 +412,9 @@
   }
 
   @media only screen and (max-width: 900px) {
+      .nav-img {
+          height: 64vh !important;
+      }
       .header-title {
           font-size: 24pt;
           width: 90%;
@@ -424,14 +427,12 @@
           height: 450px;
       }
       .overview-heading {
-          font-size: 18pt;
+          font-size: 24pt;
           width: 100%;
-          text-align: left;
       }
       .overview-subheading {
           width: 100%;
           font-size: 11pt;
-          text-align: left;
       }
       .category-title {
           text-align: left;
@@ -473,5 +474,11 @@
       }
       .section-slider {
           padding-right: 0px;
+      }
+      .exp-heading {
+          font-size: 20pt;
+      }
+       :host .nav-subheading {
+          width: 100% !important;
       }
   }

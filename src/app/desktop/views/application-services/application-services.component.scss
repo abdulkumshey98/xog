@@ -9,7 +9,7 @@
 
 .nav-overlay {
     background-color: #000000;
-    filter: opacity(76%);
+    filter: opacity(76%) !important;
 }
 
 .nav-img {
@@ -422,7 +422,7 @@
         padding: 0px;
     }
     .nav-img {
-        height: 50%;
+        height: 60vh !important;
     }
     .detail-heading {
         font-size: 16pt;
