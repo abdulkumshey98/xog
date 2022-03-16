@@ -3,45 +3,45 @@
         background-color: $primary-color;
         z-index: 10000;
     }
-
+    
     .uk-navbar-nav>li>a,
     .uk-navbar-item,
     .uk-navbar-toggle {
         min-height: 74px;
     }
-
+    
     .top-logo {
         width: 110px;
     }
-
+    
     .top-logo>g>g>path,
     .top-logo>g>path {
         fill: white;
     }
-
+    
     .topnav>div>ul>li>a {
         color: white;
         text-transform: capitalize;
         font-size: 9.5pt;
     }
-
+    
     .topnav>div>ul>li>a>span {
         font-size: 12pt;
     }
-
+    
     .topnav>div>ul>li:hover>a.xms>span {
         transform: none;
     }
-
+    
     .topnav>div>ul>li>a.xms>span {
         font-size: 8pt;
         margin-left: 6px;
     }
-
+    
     .topnav>div>ul>li:hover>a>span {
         transform: rotate(90deg);
     }
-
+    
     .contact-button {
         background-color: $pcolor;
         color: white;
@@ -50,12 +50,12 @@
         border-radius: 8px;
         font-size: 10pt;
     }
-
+    
     .drop-nav {
         border-radius: 4px;
         margin-top: 0px;
     }
-
+    
     .drop-ul>li>a {
         padding: 8px 14px;
         color: black;
@@ -63,48 +63,88 @@
         margin-bottom: 2px;
         border-radius: 4px;
     }
-
+    
     .topnav.uk-active {
         background-color: white !important;
         border-bottom: 1px solid #40404040;
     }
-
+    
     .topnav.uk-active>div>a>svg>g>g>path {
         fill: $black;
     }
-
+    
     .topnav.uk-active>div>ul>li>a {
         color: black !important;
     }
-
+    
     .topnav.uk-active>div>ul>li>div {
         border-radius: 0px;
         border-bottom: 1px solid #40404040;
     }
-
+    
     .topnav.uk-active>div>ul>li>div.drop-nav {
         border-radius: 0px 0px 4px 4px;
         box-shadow: none;
         border: 1px solid #40404040;
         background-color: white;
     }
-
+    
     .soon-badge {
         font-size: 8pt;
         margin-left: 20px;
         color: $blue;
     }
-
+    
     .side-icon {
         color: white;
         width: 46px;
         display: none;
     }
-
+    
     .topnav.uk-active>div>.side-icon {
         color: black;
     }
-
+    
+    .sidebar {
+        z-index: 100000 !important;
+    }
+    
+    .sidenav {
+        background-color: white;
+        width: 85vw;
+    }
+    
+    .uk-offcanvas-close {
+        color: black;
+    }
+    
+    .sidenav>div {
+        margin-top: 10%;
+    }
+    
+    .sidenav>div>ul>li {
+        padding: 10px 4px !important;
+    }
+    
+    .sidenav>div>ul>li>a {
+        color: black;
+        font-size: 12pt;
+    }
+    
+    .sidelink {
+        padding: 10px 4px;
+        color: black;
+    }
+    
+    .sidelink>a {
+        color: black;
+    }
+    
+    .sidenav>div>ul>li>a::after {
+        color: black !important;
+        background-color: $black;
+    }
+    
     @media only screen and (max-width: 1150px) {
         .topnav>div>ul>li {
             display: none;

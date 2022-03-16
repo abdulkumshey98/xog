@@ -1,10 +1,10 @@
  /* Custom SCSS/SASS Files */
-
+ 
  @import 'variables';
  @import 'mixins';
  @import 'custom';
  /* UIKit */
-
+ 
  @import "variables-theme.scss";
  @import "mixins-theme.scss";
  @import "uikit-theme.scss";
@@ -32,15 +32,15 @@
  h6 {
      font-family: 'Poppins', sans-serif !important;
  }
-
+ 
  .uk-button {
      text-transform: none;
  }
-
+ 
  body {
      background-color: #40404012;
  }
-
+ 
  .uk-primary-button {
      background-color: $pcolor;
      color: white;
@@ -48,11 +48,11 @@
      text-transform: none;
      border-radius: 4px;
  }
-
+ 
  .uk-primary-button:hover {
      color: white;
  }
-
+ 
  .primary-border-button {
      background-color: $black;
      text-transform: none;
@@ -61,18 +61,18 @@
      font-size: 10pt;
      border: 2px solid $black;
  }
-
+ 
  .primary-border-button:hover {
      background: none !important;
      color: $black;
  }
-
+ 
  .container-subtitle {
      font-size: 12pt;
      color: gray;
      text-align: center;
  }
-
+ 
  .container-title {
      text-align: center;
      font-size: 27pt;
@@ -83,23 +83,23 @@
      margin-bottom: 10px;
      margin-top: 0px;
  }
-
+ 
  .bg-white {
      background-color: white;
  }
-
+ 
  .bg-black {
      background-color: $black;
  }
-
+ 
  .bg-prime {
      background-color: $primary-color;
  }
-
+ 
  .history-dot>li {
      padding-left: 0px !important;
  }
-
+ 
  .history-dot>li>a {
      background-color: #43434350;
      padding: 2px;
@@ -108,12 +108,12 @@
      width: 50px;
      border: none;
  }
-
+ 
  .history-dot>li.uk-active>a,
  .history-dot>li:hover>a {
      background-color: $blue;
  }
-
+ 
  .case-heading {
      font-size: 22pt;
      color: black;
@@ -121,30 +121,30 @@
      font-family: $pf-font;
      font-weight: 700;
  }
-
+ 
  .case-subheading {
      font-size: 11pt;
      text-align: center;
      margin-top: 10px;
  }
-
+ 
  .case-grid {
      background-color: #04040402;
      cursor: pointer;
      border: 1px solid #04040420;
  }
-
+ 
  .case-grid>.uk-card-body {
      padding: 20px;
  }
-
+ 
  .case-title {
      font-size: 16pt;
      color: black;
      font-weight: 500;
      text-align: left;
  }
-
+ 
  .case-details {
      font-size: 11pt;
      width: 90%;
@@ -152,27 +152,27 @@
      color: black;
      text-align: left;
  }
-
+ 
  .case-details::first-letter {
      font-size: 13pt;
      text-transform: uppercase;
      color: black;
  }
-
+ 
  .case-link {
      margin-top: 10px;
      font-weight: 500;
      text-align: left;
  }
-
+ 
  .case-link:hover {
      color: $blue;
  }
-
+ 
  .case-link:hover::before {
      border-bottom: 1px solid $blue;
  }
-
+ 
  .more-btn {
      background-color: $blue;
      color: white !important;
@@ -180,25 +180,25 @@
      padding: 7px 40px;
      border-radius: 4px;
  }
-
+ 
  .case-container {
      padding: 40px;
      padding-top: 0px;
  }
-
+ 
  .industry-grid>div>div>img {
      height: 300px;
      width: 100%;
      object-fit: cover;
      cursor: pointer;
  }
-
+ 
  .industry-grid>div>div>div.uk-overlay-primary {
      background-color: #43434380;
      filter: opacity(70%) !important;
      cursor: pointer;
  }
-
+ 
  .industry-name {
      font-size: 20pt !important;
      color: white;
@@ -207,17 +207,17 @@
      font-weight: 600;
      text-align: left;
  }
-
+ 
  .exp-heading {
      font-size: 24pt;
      font-family: $pf-font;
      font-weight: 600;
  }
-
+ 
  .bg-green {
      background-color: #18837d !important;
  }
-
+ 
  @media only screen and (max-width: 900px) {
      .container-title {
          font-size: 18pt;
@@ -226,16 +226,38 @@
          font-size: 22pt;
      }
  }
-
+ 
  ::ng-deep .topnav {
      background-color: $black !important;
  }
-
+ 
  .industries>li>div>div>div {
      width: 100%;
  }
-
+ 
  .industries>li>div>div>div>div.uk-overlay-primary {
      background-color: black;
      filter: opacity(40%) !important;
+ }
+ 
+ .chatlink {
+     padding: 14px;
+     background-color: #25D366;
+     color: white;
+     position: fixed;
+     bottom: 3vh;
+     right: 2vw;
+     border-radius: 50%;
+ }
+ 
+ .chatlink:hover {
+     color: $black;
+     border: 2x solid $black;
+ }
+ 
+ .uk-tooltip {
+     background-color: white !important;
+     color: black;
+     font-size: 9pt;
+     font-family: 'Poppins', sans-serif;
  }

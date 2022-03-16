@@ -1,6 +1,6 @@
 <nav [ngClass]="'uk-navbar-container topnav '" uk-sticky uk-navbar>
     <div class="uk-navbar-left">
-        <a class="uk-navbar-toggle side-icon" uk-navbar-toggle-icon href="#"></a>
+        <a class="uk-navbar-toggle side-icon" uk-navbar-toggle-icon href="#offcanvas-usage" uk-toggle></a>
 
         <a class="uk-navbar-item uk-logo" href="#">
 
@@ -116,7 +116,7 @@
                     </div>
                 </div>
             </li>
-            <li>
+            <!-- <li>
                 <a href="#">Our Industries <span class="material-icons-outlined">
                 chevron_right
                   </span></a>
@@ -157,8 +157,9 @@
                         </div>
                     </div>
                 </div>
-            </li>
+            </li> -->
             <li><a routerLink="/grocery">Grocery</a></li>
+            <li><a routerLink="/coming-soon">blogs</a></li>
             <li><a routerLink="/about-us">About Us</a></li>
             <li>
                 <a routerLink="/coming-soon" class="xms">Business Consulting <span class="material-icons-round">
@@ -172,7 +173,7 @@
     <div class="uk-navbar-right">
         <ul class="uk-navbar-nav">
             <li><a routerLink="/careers">Careers</a></li>
-            <li><a routerLink="/coming-soon">blogs</a></li>
+
             <li>
                 <a routerLink="/contact-us"> <button class="uk-button contact-button">Contact Us</button>
                 </a>
@@ -181,3 +182,45 @@
     </div>
 
 </nav>
+
+<div id="offcanvas-usage" class="sidebar" uk-offcanvas>
+    <div class="uk-offcanvas-bar sidenav">
+
+        <button class="uk-offcanvas-close " type="button" uk-close></button>
+        <div class="uk-width-1-1@s uk-width-1-1@m">
+            <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+                <li class="uk-active"><a routerLink="/home">Home</a></li>
+                <li class="uk-parent">
+                    <a href="#">Our Services</a>
+                    <ul class="uk-nav-sub">
+                        <li class="sidelink"><a routerLink="/web-design">Web Design </a></li>
+                        <li class="sidelink"><a routerLink="/app-development">Application Development </a></li>
+
+                        <li class="sidelink"><a routerLink="/web-development">Web Development</a></li>
+
+                        <li class="sidelink"><a routerLink="/branding">Branding</a></li>
+                        <li class="sidelink"><a routerLink="/cloud-solutions">Cloud Solutions</a></li>
+                        <li class="sidelink"><a routerLink="/cyber-security">Cyber Security </a></li>
+                        <li class="sidelink"><a routerLink="/digital-strategy">Digital Strategy</a></li>
+                        <li class="sidelink"><a routerLink="/e-commerce">E-Commerce</a></li>
+                        <li class="sidelink"><a routerLink="/logo-design">Logo Designing</a></li>
+                        <li class="sidelink"><a routerLink="/marketing">Marketing & Advertising</a></li>
+                        <li class="sidelink"><a routerLink="/seo">SEO</a></li>
+                        <li class="sidelink"><a routerLink="/software-development">Software Development </a></li>
+                        <li class="sidelink"><a routerLink="/ui-ux">UI & UX </a></li>
+                        <li class="sidelink"><a routerLink="/product-packaging">Product & Package design</a></li>
+                        <li class="sidelink">
+                            <a routerLink="/quality-engineering">Quality Engineering </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li><a routerLink="/grocery">Grocery</a></li>
+                <li><a routerLink="/coming-soon">Blogs</a></li>
+                <li><a routerLink="/about-us">About Us</a></li>
+                <li><a routerLink="/careers">Careers</a></li>
+                <li><a routerLink="/contact-us">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
